@@ -1,0 +1,59 @@
+
+.UserInfo {
+    margin-top: 40px;
+    color: black;
+    background-color: white;
+    height: auto;
+    width:  90vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    padding: 10px;
+}
+
+.UserInfoHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: stretch;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.UserInfoDetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+    padding: 0 30px;
+}
+.UserInfoDetailRow {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+}
+.UserInfoName {
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: #34a5da;
+    margin-bottom: 10px;
+}
+
+.Property {
+    margin: 4px 0;
+}
+.PropertyLabel {
+    font-weight: bolder;
+}
